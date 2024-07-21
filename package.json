@@ -1,11 +1,11 @@
 {
   "name": "@mirulqt/dscomp",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "main": "dist/index.js",
   "exports": {
-    "./button": "./dist/components/button.js",
-    "./input": "./dist/components/input.js"
+    "./button": "./dist/button.js",
+    "./input": "./dist/input.js"
   },
   "types": "dist/index.d.ts",
   "repository": {
