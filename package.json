@@ -1,5 +1,5 @@
 {
-  "name": "lib-component",
+  "name": "@mirulqt/dscomp",
   "version": "0.0.0",
   "type": "module",
   "main": "dist/index.js",
