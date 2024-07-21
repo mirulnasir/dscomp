@@ -17,11 +17,7 @@ export default defineConfig({
 
   build: {
     lib: {
-      entry: {
-        'index': resolve(__dirname, 'lib/index.ts'),
-        'button': resolve(__dirname, 'lib/components/Button/index.tsx'),
-        'input': resolve(__dirname, 'lib/components/Input/index.tsx'),
-      },
+      entry: resolve(__dirname, 'lib/index.ts'),
       formats: ['es']
     },
     copyPublicDir: false,
