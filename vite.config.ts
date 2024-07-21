@@ -43,6 +43,7 @@ export default defineConfig({
       // )
       // ,
       output: {
+        preserveModules: false,
         chunkFileNames: 'chunks/[name].[hash].js',
         assetFileNames: 'assets/[name][extname]',
         entryFileNames: '[name].js',
