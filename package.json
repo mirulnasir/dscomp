@@ -4,7 +4,8 @@
   "type": "module",
   "main": "dist/index.js",
   "exports": {
-    "./*": "./dist/components/*.js"
+    "./button": "./dist/components/button.js",
+    "./input": "./dist/components/input.js"
   },
   "types": "dist/index.d.ts",
   "repository": {
